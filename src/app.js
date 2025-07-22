@@ -15,7 +15,8 @@ const app = express()
 app.use(cors({
     origin: [
         //'http://localhost:5173', 
-        'https://frontend-delta-taupe-97.vercel.app'], 
+        'https://foodmatch-manage.vercel.app/'
+    ], 
     credentials: true, 
 }));
 
