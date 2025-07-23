@@ -3,7 +3,7 @@ import axios from 'axios'
 const api = axios.create({
     baseURL: 
         //"http://localhost:3000/api",
-        "https://foodmatch-manage.onrender.com",
+        "https://foodmatch-manage.onrender.com/api",
     withCredentials: true
 })
 
