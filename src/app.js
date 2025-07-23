@@ -15,7 +15,7 @@ const app = express()
 app.use(cors({
     origin: [
         //'http://localhost:5173', 
-        'https://foodmatch-manage.vercel.app/'
+        'https://foodmatch-manage.vercel.app'
     ], 
     credentials: true, 
 }));
